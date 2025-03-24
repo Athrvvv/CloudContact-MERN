@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://dare0bozo:WhxnfZrbUEGIUKx1@cluster0.xv1o9.mongodb.net/CloudContactDB?retryWrites=true&w=majority",
+  "jwtSecret": "06f8880247c3410b0b45f3e142b4ed8fedfbff5d85832b0c38e8bb1ad65dce18"
+}
