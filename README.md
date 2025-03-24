@@ -1,60 +1,54 @@
 # Cloud Contact
 
-Cloud Contact App Where User can Register, Login and then keep and manage their contacts in the cloud. In this project i have use Node Js, Express, Mongodb for Serving api and React With Redux for Frontend.
+Cloud Contact App allows users to register, log in, and manage their contacts securely in the cloud. The project uses Node.js, Express, and MongoDB for the backend and React with Redux for the frontend.
 
-# See live demo here
+## Installation Instructions
 
-https://cloud-contact-devmahmud.herokuapp.com/
-
-# Install dependencies for server
-
+### Prerequisite: Set Node Version to 16.x Using NVM
+1. Install NVM:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
+2. Restart terminal and install Node 16:
+```bash
+nvm install 16
+```
+3. Set Node version:
+```bash
+nvm use 16
+```
+
+## Install Dependencies for Server
+```bash
 npm install
 ```
 
-# Install dependencies for client
-
-```
+## Install Dependencies for Client
+```bash
 npm run client-install
 ```
 
-# Run the client & server with concurrently
-
-```
+## Run Client & Server Concurrently
+```bash
 npm run dev
 ```
 
-# Run the Express server only
-
-```
+## Run Express Server Only
+```bash
 npm run server
 ```
 
-# Run the React client only
-
-```
+## Run React Client Only
+```bash
 npm run client
 ```
 
-```
-Server runs on http://localhost:5000 and client runs on http://localhost:3000
-```
+### Server: [http://localhost:5000](http://localhost:5000)  
+### Client: [http://localhost:3000](http://localhost:3000)
 
-```
-You need to setup your mongo database connection string in "config/default.json" folder and also the jwt secret
-```
+---
 
-# Project snapshot
-
-## User Homepage
-
-![image](https://user-images.githubusercontent.com/19981097/68968679-60cf0b00-080d-11ea-9175-819d59248224.png)
-
-## Author
-
-<blockquote>
-Mahmudul alam
-Email: expelmahmud@gmail.com
-</blockquote>
+👉 Make sure to add your MongoDB URI and JWT secret to `config/default.json` before running.
 
 ========Thank You !!!=========
+
